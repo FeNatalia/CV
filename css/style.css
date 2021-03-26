@@ -1,0 +1,9 @@
+@import "./variables.css";
+@import "./shared.css";
+
+@import "./navigation-menu.css";
+@import "./content.css";
+@import "./introduction.css";
+@import "./footer.css";
+@import "./portfolio.css";
+

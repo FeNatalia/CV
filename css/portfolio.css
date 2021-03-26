@@ -1,0 +1,9 @@
+.picture-item{
+    margin-bottom: var(--space-medium);
+    padding: var(--space-small);
+}
+
+.article-item img{
+    margin-bottom: var(--space-medium);
+    border-radius: 2px;
+}

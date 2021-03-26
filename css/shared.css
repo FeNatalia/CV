@@ -1,0 +1,43 @@
+ /* Fonts
+@import url("http:"); */
+html{
+    display: block;
+    color: text;
+}
+body{
+    font-family: "Gothic A1", sans-serif;
+    box-sizing: border-box;
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: var(--space-bigger) var(--space-medium) var(--space-big);
+    background-color: rgb(240, 221, 225);
+} 
+.introduction p {
+    max-width: 640px;
+    font-size: 18px;
+    margin-bottom: var(--space-big);
+}
+.subtitle{
+    font-size: 12px;
+    font-weight: 900;
+    color:rgb(89, 76, 79);
+    text-transform: uppercase;
+}
+p{
+    margin-top: 0;
+}
+
+h2{
+    font-size: 24px;
+    margin-bottom: var(--space-medium);
+}
+
+h1, h2, h3{
+    font-weight: 900;
+    margin-top: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}

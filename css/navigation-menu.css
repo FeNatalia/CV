@@ -1,0 +1,15 @@
+.navigation-menu{
+    margin-bottom: var(--space-big);
+    text-align: center;
+    color: rgb(75, 53, 57);
+}
+
+.navigation-menu a{
+    padding: var(--space-small);
+    color: black;
+}
+
+.navigation-menu a:hover{
+    background-color:rgb(75, 53, 57);
+    color: white;
+}

@@ -1,0 +1,38 @@
+.introduction .personal-info {
+    margin-bottom: var(--space-medium);
+    text-align: center;
+}
+.introduction img{
+    box-sizing: border-box;
+    max-width: 120px;
+    border-radius: 50%;
+    border:  solid 5px rgb(238, 216, 216);
+    width: 200px;
+    height: auto;
+    margin: var(--space-medium);
+}
+.introduction p{
+    max-width: 640px;
+    font-size: 18px;
+    margin-bottom: var(--space-big);
+}
+
+.introduction h1{
+    margin-bottom: 0;
+}
+
+.introduction .subtitle {
+    margin: 0;
+    font-size: 24px;
+}
+
+@media (min-width: 550px){
+.introduction .personal-info {
+display: flex;
+align-items: center;
+margin-bottom: 0;
+text-align: left;
+}
+}
+
+
